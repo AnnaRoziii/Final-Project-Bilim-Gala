@@ -20,11 +20,12 @@ const App = () => {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
           <Route path="/news" element={<NewsPage />} />
+          <Route path="/clubs" element={<ClubsPage />}/>
+         <Route path="/interviews" element={<InterviewPage/>}/>
           <Route path="/tutors" element={<TutorsPage />} />
           <Route path="/tutors/:id" element={<TutorDetailPage />} />
         </Route>
-         <Route path="/clubs" element={<ClubsPage />}/>
-        <Route path="/interviews" element={<InterviewPage/>}/>
+         
       </Routes>
     </BrowserRouter>
   </ThemeProvider>
