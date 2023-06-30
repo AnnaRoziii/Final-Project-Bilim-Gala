@@ -13,7 +13,6 @@ const TutorDetailPage = () => {
     <div>
       <h2>{tutor.name}</h2>
       <h4>{tutor.jobTitle}</h4>
-      {/* Render additional tutor details */}
     </div>
   );
 };

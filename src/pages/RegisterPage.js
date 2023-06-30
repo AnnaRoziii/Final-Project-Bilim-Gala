@@ -18,9 +18,7 @@ const Register = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Add your registration logic here
     console.log(formData);
-    // Reset the form
     setFormData({
       firstName: '',
       lastName: '',

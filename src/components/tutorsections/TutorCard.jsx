@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 const TutorCard = ({ tutor }) => {
   const handleRatingChange = (newValue) => {
-    // Handle the rating change here (e.g., update the tutor's rating in the database)
     console.log(`New rating for ${tutor.name}: ${newValue}`);
   };
 

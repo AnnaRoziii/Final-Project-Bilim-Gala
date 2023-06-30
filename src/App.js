@@ -28,22 +28,6 @@ const App = () => {
       </Routes>
     </BrowserRouter>
   </ThemeProvider>
-//     <ThemeProvider theme= {appTheme} >
-// <CssBaseline enableColorScheme/>
-// <BrowserRouter>
-//   <Routes>
-//     <Route path="/" element={<MainLayout />}>
-//       <Route index element={<HomePage />}/>
-//       <Route path="/news" element={<NewsPage/>}/>
-//       <Route path="/tutors" element={<TutorsPage />}>
-//               <Route path=":tutorId" element={<TutorDetailPage />} />
-//       </Route>
-//       <Route path="/clubs" element={<ClubsPage />}/>
-//       <Route path="/interviews" element={<InterviewPage/>}/>
-//     </Route>
-//   </Routes>
-// </BrowserRouter>
-// </ThemeProvider>
   );
 };
 
