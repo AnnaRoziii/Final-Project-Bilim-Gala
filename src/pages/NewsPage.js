@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Container, Grid, Typography, Pagination, TextField } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import NewsCard from '../components/NewsSections/NewsCard';
-
+import NewsNavBar from '../components/NewsSections/NewsNavBar';
 const NewsPage = () => {
   const latestNews = [
     {
@@ -105,6 +105,7 @@ const NewsPage = () => {
 
   return (
     <Box sx={{ padding: '0 0 50px 0' }}>
+      <NewsNavBar/>
       <Container sx={{ marginTop: '40px' }}>
         <Typography variant="h4" gutterBottom>
           Latest News

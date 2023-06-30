@@ -79,7 +79,7 @@ const TutorsPage = () => {
   };
 
   return (
-    <div>
+    <Box sx={{width: "90%", margin:"20px auto"}}>
       <Typography variant="h4" gutterBottom>
         Tutors
       </Typography>
@@ -101,7 +101,7 @@ const TutorsPage = () => {
       <Box display="flex" justifyContent="center" mt={10}>
         <Pagination count={100} page={1} />
       </Box>
-    </div>
+    </Box>
   );
 };
 
