@@ -47,7 +47,7 @@ const TutorSection = () => {
     <Box sx={{bgcolor: "primary.main", width: "100%", color: "secondary.main", textAlign: "center",  padding:"100px 0 100px 0",}} >
     <Box sx={{bgcolor: "primary.main", width: "80%", m: "0 auto"}}> 
    <Typography variant="h4" color={"custom1.main"}>Tutors</Typography>
- <Typography variant="body1" margin={"15px 0 0 0"}>На нашем сайте вы имеете возможность присоединиться к различным клубам, которые откроют перед вами увлекательные и перспективные горизонты.</Typography>
+ <Typography variant="body1" margin={"15px 0 0 0"}>На нашем сайте вы сможете найти репетитора, идеально подходящего вам по рейтингу, геолокации и предмету изучения. Наша система оценки и отзывов поможет вам принять информированное решение и выбрать опытного и квалифицированного специалиста.</Typography>
  </Box>
     <Grid container spacing={2} justifyContent="center"
     sx={{
