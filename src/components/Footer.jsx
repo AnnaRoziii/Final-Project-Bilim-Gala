@@ -11,21 +11,18 @@ const Footer = () => {
         sx={{
           backgroundColor: 'primary.main',
           color: 'custom.main',
-        padding: "50px 0 50px 0",
+        padding: "50px 50px 20px 0px",
           position: 'relative',
         }}
       >
         <Stack flexDirection={"row"} justifyContent="space-between" >
             <Box>
               <Logo/>
-            </Box>
-            <Box>
-              <Typography variant="h6">Контакты: bilimgala@gmail.com | +99368932514</Typography>
-              <Typography variant="body2">
+            </Box>   
                 <Box sx={{
                   display: "flex" ,
                   justifyContent: "space-between",
-                  width: "30%",
+                  width: "20%",
                   margin: "30px 0 30px 0"
                 }}>
                 <Facebook/>
@@ -33,18 +30,16 @@ const Footer = () => {
                 <Twitter />
                 <LinkedIn/>
                 </Box>
-              </Typography>
-            </Box>
             </Stack>
         <Box
           sx={{
-            position: 'absolute',
-            bottom: 0,
-            left: '50%',
-            transform: 'translateX(-50%)',
+            bottom: 0,        
+          textAlign: "center",
+            width: '100%',
           }}
-        >
-          <Typography variant="body2" align="center">
+        > 
+        <Typography variant="h6">Контакты: bilimgala@gmail.com | +99368932514</Typography>
+          <Typography variant="body2">
             &copy; {new Date().getFullYear()} Your Website. All rights reserved.
           </Typography>
         </Box>

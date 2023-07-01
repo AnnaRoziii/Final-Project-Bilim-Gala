@@ -1,6 +1,6 @@
 import React from 'react';
-import ClubsHero from "../components/swiperHero/SwiperHero"
-
+import ClubsHero from "../components/common/ParallaxSwiper"
+import InterviewSection from "../components/interview/InterviewSection"
 import DigiImage from '../public/swipe1.jpg';
 import StudyClubImage from '../public/swipe2.jpg';
 import HeroImage from '../public/swipe3.jpg';
@@ -24,9 +24,11 @@ const InterviewPage = () => {
     },
   ];
   return (
-  <>
-  <ClubsHero slides={slides} />
-  </>
+    <>
+      <ClubsHero slides={slides} />
+      <InterviewSection/>
+
+    </>
   );
 };
 

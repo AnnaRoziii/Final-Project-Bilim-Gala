@@ -67,8 +67,9 @@ width: { sm:"300px"},  height:{ sm:"400px"}}}>
           src={updatedTutor.photo}
           alt={updatedTutor.name}
           sx={{  
-            width: {xs: "150px", sm:"200px", md: "300px" }, height:{xs: "150px", sm:"200px", md: "300px" }  }} 
-        
+            width: {xs: "150px", sm:"200px", md: "300px" }, 
+            height:{xs: "150px", sm:"200px", md: "300px" }
+            }} 
         />
       </Grid>
     </Grid>

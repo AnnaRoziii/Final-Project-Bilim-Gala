@@ -6,7 +6,7 @@ import { Typography, Paper } from '@mui/material';
 
 SwiperCore.use([Navigation, Autoplay, Parallax]);
 
-const ClubsHero = ({ slides }) => {
+const ParallaxSwiper = ({ slides }) => {
   const swiperRef = useRef(null);
 
   useEffect(() => {
@@ -64,7 +64,7 @@ const ClubsHero = ({ slides }) => {
   );
 };
 
-export default ClubsHero;
+export default ParallaxSwiper;
 
 
 

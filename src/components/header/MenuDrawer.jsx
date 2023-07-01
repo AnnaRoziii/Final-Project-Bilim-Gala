@@ -13,19 +13,8 @@ function MenuDrawer({ open, onOpen, onClose }) {
       open={open}
       onClose={onClose}
       onOpen={onOpen}
-      sx={{
-        "& .MuiDrawer-paper": {
-          backgroundColor: "primary.main",
-        },
-      }}
-    >
-      <Stack
-        sx={{
-          display: "flex",
-          justifyContent: "space-between",
-          mx: 5,
-        }}
-      >
+      sx={{  "& .MuiDrawer-paper": {backgroundColor: "primary.main",},}}>
+      <Stack  sx={{ display: "flex", justifyContent: "space-between", mx: 5,}} >
         <Box sx={{ my: 5 }}>
           <Logo />
         </Box>

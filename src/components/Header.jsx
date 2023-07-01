@@ -31,7 +31,7 @@ function Header() {
           <Grid item sm={7} md={6}>
             <Box
               sx={{
-                display: { xs: "none", sm: "flex" },
+                display: { xs: "none", sm: "none", md: "flex" },
                 justifyContent: "space-between",
                 alignItems: "center",
               }}
@@ -39,7 +39,7 @@ function Header() {
               <NavBar />
             </Box>
           </Grid>
-          <Grid item sx={{ display: { xs: "flex", sm: "none" } }}>
+          <Grid item sx={{ display: { sm: "flex", md: "none" } }}>
             <Menu onClick={toggleDrawer} fontSize="large" />
             <MenuDrawer
               open={open}

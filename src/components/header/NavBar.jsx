@@ -24,8 +24,8 @@ function NavBar({ navStyle }) {
           {navItem.linkname}
         </Link>
       ))}
-      <Button variant="outlined" color="custom" href="/register">
-       Register
+      <Button variant="button" color="custom" href="/register" >
+       Register 
     </Button>
     </>
   );

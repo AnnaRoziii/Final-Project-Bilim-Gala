@@ -3,15 +3,15 @@ import { createTheme } from "@mui/material/styles";
 export const appTheme = createTheme({
   palette: {
     primary: {
-      main: "#0A0A0A",
-      contrastText: "#176B87  ",
+      main: "#0A0A0A",        
+      contrastText: "#176B87  ",  
     },
-    secondary: {
+    secondary: { 
       main: "#d4f0fc",
       contrastText: "	#d4f0fc",
     },
     custom: {
-      main: "#FEFF86",
+      main: "#FEFF86",    //o
     },
     custom1: {
       main: "#84A7A1",
@@ -33,7 +33,7 @@ export const appTheme = createTheme({
         fontSize: "50px",
       },
     },
-    h2: {
+    h2: {        
       fontFamily: "DM Serif Display, serif",
       fontSize: "50px",
       "@media (max-width:900px)": {
@@ -57,10 +57,10 @@ export const appTheme = createTheme({
       fontFamily: "DM Serif Display, serif",
       fontSize: "35px",
       "@media (max-width:900px)": {
-        fontSize: "30px",
+        fontSize: "24px",
       },
       "@media (max-width:600px)": {
-        fontSize: "25px",
+        fontSize: "21px",
       },
     },
     h5: {
@@ -73,7 +73,7 @@ export const appTheme = createTheme({
         fontSize: "20px",
       },
     },
-    h6: {
+    h6: {  
       fontFamily: "Jost serif",
       fontSize: "14px",
       "@media (max-width:900px)": {
@@ -84,8 +84,8 @@ export const appTheme = createTheme({
       },
     },
 
-    body1: {
-      fontSize: "20px",
+    body1: {      
+      fontSize: "20px",         
       "@media (max-width:900px)": {
         fontSize: "18px",
       },

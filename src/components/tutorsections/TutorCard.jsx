@@ -11,6 +11,7 @@ const TutorCard = ({ tutor }) => {
     <Card sx={{ maxWidth: 345, marginBottom: '16px' }}>
       <CardMedia component="img" height="140" image={tutor.image} alt={tutor.name} />
       <CardContent sx={{bgcolor: "custom1.main"}}>
+        
         <Typography variant="h5" color="primary.main">
           {tutor.name}
         </Typography>

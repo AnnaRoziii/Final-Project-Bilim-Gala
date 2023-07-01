@@ -18,11 +18,9 @@ function Carousel() {
     { slideImage: brand3, altText: "GRE" },
     { slideImage: brand5, altText: "Volunteering" },
   ];
-
   const swiperStyles = {
     backgroundColor: "custom.main", 
   };
-  
   const slidesPerView = {
     0: 1,
     600: 2,

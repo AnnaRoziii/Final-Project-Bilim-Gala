@@ -10,56 +10,56 @@ const tutors = [
     name: 'Maral',
     jobTitle: 'Math Tutor',
     image: require('../public/tutor1.jfif'),
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  
   },
   {
     id: 2,
     name: 'Dunya',
     jobTitle: 'Science Tutor',
     image: require('../public/tutor2.jfif'),
-    description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+
   },
   {
     id: 1,
     name: 'Maral',
     jobTitle: 'Math Tutor',
     image: require('../public/tutor1.jfif'),
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+ 
   },
   {
     id: 2,
     name: 'Dunya',
     jobTitle: 'Science Tutor',
     image: require('../public/tutor2.jfif'),
-    description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    
   },
   {
     id: 1,
     name: 'Maral',
     jobTitle: 'Math Tutor',
     image: require('../public/tutor1.jfif'),
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+ 
   },
   {
     id: 2,
     name: 'Dunya',
     jobTitle: 'Science Tutor',
     image: require('../public/tutor2.jfif'),
-    description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  
   },
   {
     id: 1,
     name: 'Maral',
     jobTitle: 'Math Tutor',
     image: require('../public/tutor1.jfif'),
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+   
   },
   {
     id: 2,
     name: 'Dunya',
     jobTitle: 'Science Tutor',
     image: require('../public/tutor2.jfif'),
-    description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    
   },
 ];
 
