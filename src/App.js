@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { ThemeProvider } from "@emotion/react";
 import { CssBaseline } from "@mui/material";
 import { appTheme } from "./themes/theme"; 
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <ThemeProvider theme={appTheme}>
     <CssBaseline enableColorScheme />
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
@@ -27,7 +27,7 @@ const App = () => {
         </Route>
          
       </Routes>
-    </BrowserRouter>
+   </HashRouter>
   </ThemeProvider>
   );
 };
